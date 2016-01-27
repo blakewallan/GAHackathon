@@ -2,12 +2,12 @@ var express         = require('express');
 var mongoose        = require('mongoose');
 var request         = require('request');
 var _               = require('lodash');
-var path 			= require('path');
+var path 			      = require('path');
 
 var app = express();
 
 
-mongoose.connect('mongodb://localhost/gahackathon');
+mongoose.connect('mongodb://ga-hackathon:ga@ds051585.mongolab.com:51585/heroku_6spv5l5r');
 mongoose.connection.once('open', function(){
 
   //Load DB models
