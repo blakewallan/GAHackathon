@@ -6,8 +6,9 @@ var path 			      = require('path');
 
 var app = express();
 
+var uri = "mongodb://reedk:gahackathon@ds051665.mongolab.com:51665/heroku_0n6bwt98";
 
-mongoose.connect('mongodb://localhost/gahackathon');
+mongoose.connect(uri);
 mongoose.connection.once('open', function(){
 
   //Load DB models
