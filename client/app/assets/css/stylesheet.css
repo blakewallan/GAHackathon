@@ -4,8 +4,6 @@
 	background-size: 100%;
 	height: 850px;
 	width: 850px;
-	position: absolute;
-	z-index: 10;
 }
 
 .content {
@@ -16,4 +14,10 @@
 #text {
 	position: relative;
 	z-index: 5;
+	margin: 0 auto;
+
+}
+
+.well {
+	margin: 0 auto;
 }
